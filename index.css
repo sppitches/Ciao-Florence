@@ -5,10 +5,11 @@ h1 {
     margin-top: 15px;
     font-size: 80px;
 }
-ul {
+ ul {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
+    /* This section prev used for sticky nav bar - remove? */
     position: -webkit-sticky; /* sticky navbar */
     position: sticky;
     top: 0;
