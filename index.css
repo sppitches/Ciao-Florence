@@ -28,6 +28,18 @@ a:hover {
       color: pink;
   }
   /* TEST social media tags at bottom of page */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.flex-container > div {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -43,15 +55,23 @@ a:hover {
       opacity: 0.7;
   }
 .fa-facebook {
-    background: #3B5998;
+    background: pink;
     color: white;
   }
   
 .fa-twitter {
-    background: #55ACEE;
+    background: pink;
     color: white;
   }
 .fa-instagram {
-    background: #f40083;
+    background: pink;
     color: white;
   }
+h6 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  margin-top: 2px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+  
