@@ -7,6 +7,8 @@ h1 {
     margin-top: 15px;
     font-size: 80px;
 }
+/* Social-Media-tags-test*/
+ul {
 .topnav {
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -16,10 +18,17 @@ h1 {
     position: sticky;
     top: 0;
     background-color: white;
+  }
+li {
+    display: inline;
+  }
+
+
 }
 li {
     display: inline;
 }
+
 a {
     color: black;
     display: horizontal;
@@ -43,7 +52,59 @@ a:hover {
       margin: 0;
       padding: 14px;
   }
+
+a:hover {
+      color: pink;
+  }
+  /* TEST social media tags at bottom of page */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.flex-container > div {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    float: center;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+.fa-facebook {
+    background: pink;
+    color: white;
+  }
+  
+.fa-twitter {
+    background: pink;
+    color: white;
+  }
+.fa-instagram {
+    background: pink;
+    color: white;
+  }
+h6 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  margin-top: 2px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
     
 .topnav input[type=text] {
       border: 1px solid #ccc;  
   }
+
