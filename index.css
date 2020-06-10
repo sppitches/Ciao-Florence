@@ -34,18 +34,19 @@ a {
     display: horizontal;
     padding: 8px;
 }
+
 a:hover {
-    color: pink;
+      color: pink;
 }
 
-  /* Carousel */
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
+  /* Carousel Test */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
 
-/* social media buttons in footer */
+/*Social media buttons*/
 .flex-container {
     display: flex;
     justify-content: center;
@@ -71,8 +72,9 @@ a:hover {
 }
   
 .fa:hover {
-      opacity: 0.7;
+    opacity: 0.7;
 }
+
 .fa-facebook {
     background: pink;
     color: white;
@@ -86,11 +88,12 @@ a:hover {
     background: pink;
     color: white;
 }
+
+/*footer*/
 h6 {
     text-align: center;
     font-family: 'Playfair Display', serif;
     margin-top: 2px;
     font-size: 15px;
     margin-bottom: 15px;
-}
 }
