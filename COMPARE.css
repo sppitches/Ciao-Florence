@@ -41,31 +41,31 @@ a:hover {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 55px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    float: center;
-    border-radius: 50%;
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  float: center;
+  border-radius: 50%;
 }
   
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 .fa-facebook {
-    background: pink;
-    color: white;
+  background: pink;
+  color: white;
 }
   
 .fa-twitter {
-    background: pink;
-    color: white;
+  background: pink;
+  color: white;
 }
 .fa-instagram {
-    background: pink;
-    color: white;
+  background: pink;
+  color: white;
 }
 h6 {
   text-align: center;
