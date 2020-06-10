@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-top: 15px;
+    font-size: 80px;
+}
+ ul {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    /* This section prev used for sticky nav bar - remove? */
+    position: -webkit-sticky; /* sticky navbar */
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  li {
+    display: inline;
+  }
+
+  a {
+    color: black;
+    display: horizontal;
+    padding: 8px;
+  }
+  a:hover {
+      color: pink;
+  }
