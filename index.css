@@ -95,10 +95,12 @@ a:hover {
 .fa-instagram {
     background: pink;
     color: white;
+}
 h6 {
     text-align: center;
     font-family: 'Playfair Display', serif;
     margin-top: 2px;
     font-size: 15px;
     margin-bottom: 15px;
+}
 }
