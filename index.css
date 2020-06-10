@@ -14,19 +14,28 @@ ul {
     position: sticky;
     top: 0;
     background-color: white;
-  }
+}
 li {
     display: inline;
-  }
+}
 
 a {
     color: black;
     display: horizontal;
     padding: 8px;
-  }
+}
 a:hover {
       color: pink;
-  }
+}
+
+  /* Carousel Test */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+
   /* TEST social media tags at bottom of page */
 .flex-container {
   display: flex;
