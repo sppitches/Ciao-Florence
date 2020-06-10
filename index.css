@@ -1,4 +1,8 @@
+
+/*Font link*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+/*TITLE*/
 h1 {
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -6,28 +10,31 @@ h1 {
     font-size: 80px;
 }
 
+/* Navbar */
 .navbar {
+    text-align: center;
     z-index: 999;
-    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
-    /* This section prev used for sticky nav bar - remove? */
+    /* sticky nav bar - remove? */
     position: -webkit-sticky; /* sticky navbar */
     position: sticky;
     top: 0;
     background-color: white;
 }
+
 li {
     display: inline;
 }
+
 a {
     color: black;
     display: horizontal;
     padding: 8px;
 }
+
 a:hover {
       color: pink;
 }
@@ -39,20 +46,20 @@ a:hover {
     margin: auto;
 }
 
-
-  /* TEST social media tags at bottom of page */
+/*Social media buttons*/
 .flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-}
-.flex-container > div {
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
+.flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+  
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -67,6 +74,7 @@ a:hover {
 .fa:hover {
     opacity: 0.7;
 }
+
 .fa-facebook {
     background: pink;
     color: white;
@@ -80,11 +88,12 @@ a:hover {
     background: pink;
     color: white;
 }
+
+/*footer*/
 h6 {
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-  margin-top: 2px;
-  font-size: 15px;
-  margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2px;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
-  
