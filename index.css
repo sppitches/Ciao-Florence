@@ -8,7 +8,7 @@ h1 {
  ul {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
+    font-size: 25px;
     /* This section prev used for sticky nav bar - remove? */
     position: -webkit-sticky; /* sticky navbar */
     position: sticky;
