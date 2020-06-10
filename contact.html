@@ -12,11 +12,12 @@
           <ul>
            <li><a href="index.html">Home</a></li>
            <li><a href="about.html">About</a></li>
-            <li><a href="news.html">News</a></li>
+            <li><a href="blog.html">Blog</a></li>
            <li><a href="contact.html">Contact</a></li>
           </ul> 
       </nav> 
       <!-- page text -->
+      
       <p>
         Would you like a personalised cityguide?
       </p>
@@ -29,19 +30,20 @@
       <p>
         Drop us a line and we will get back to you ASAP!
       </p>
+    
       <!-- contact form -->
       <div class="container">
         <form action="action_page.php">
       
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="fname"><strong> First name </strong></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name">
       
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="lname"><strong> Last name </strong></label>
+          <input type="text" id="lname" name="lastname" placeholder="Your surname">
       
-          <label for="country">Country</label>
+          <label for="country"><strong> Select your country</strong></label>
           <select id="country" name="country">
-            <option value="Afghanistan">Afghanistan</option>
+            <option value="Afghanistan"><strong> Afghanistan</strong></option>
                 <option value="Åland Islands">Åland Islands</option>
                 <option value="Albania">Albania</option>
                 <option value="Algeria">Algeria</option>
@@ -288,12 +290,26 @@
                 <option value="Other">Other</option>
           </select>
       
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <label for="submission"><strong> Submission </strong></label>
+          <textarea id="submission" name="submission" placeholder="Tell us your ideas ♥︎" style="height:200px"></textarea>
       
           <input type="submit" value="Submit">
       
         </form>
       </div>
     </body>
+    <footer> 
+      <!--Flex container for social icons-->
+      <div class = "flex-container">
+     <!-- social icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Add font awesome icons -->
+        <div><a href="https://www.facebook.com/ciao.florenza/" class="fa fa-facebook"></a></div>
+        <div><a href="https://twitter.com/ciao_florence" class="fa fa-twitter"></a></div>
+        <div><a href= "https://www.instagram.com/ciao.holly/" class="fa fa-instagram"></a></div>
+     </div>
+     <h6>
+       H&S Pitches © 2020 - All Rights Reserved.
+     </h6>
+    </footer>
   </html>

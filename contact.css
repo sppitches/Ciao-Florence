@@ -1,50 +1,40 @@
-/*Font link*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
-
-/*TITLE*/
 h1 {
     text-align: center;
     font-family: 'Playfair Display', serif;
     margin-top: 15px;
     font-size: 80px;
 }
-
-/* Navbar */
-.navbar {
+ul {
     text-align: center;
-    z-index: 999;
-    justify-content: center;
-    align-items: center;
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    /* sticky nav bar - remove? */
+    font-size: 25px;
     position: -webkit-sticky; /* sticky navbar */
     position: sticky;
     top: 0;
     background-color: white;
-}
-
-li {
+  }
+  li {
     display: inline;
-}
+  }
 
-a {
+  a {
     color: black;
     display: horizontal;
     padding: 8px;
-}
-
-a:hover {
+  }
+  a:hover {
       color: pink;
-}
+  }
   /* page text*/
   p {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 15px;
+    font-size: 20px;
   }
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+  font-family: 'Playfair Display', serif;
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
@@ -57,17 +47,18 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: pink;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: 'Playfair Display', serif;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: palevioletred;
 }
 
 /* Add a background color and some padding around the form */
@@ -75,56 +66,57 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  font-family: 'Playfair Display', serif;
 }
 
   /*Social media buttons*/
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-}
-
-.flex-container > div {
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 55px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  float: center;
-  border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: pink;
-  color: white;
-}
-
-.fa-twitter {
-  background: pink;
-  color: white;
-}
-.fa-instagram {
-  background: pink;
-  color: white;
-}
-
-/*footer*/
-h6 {
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-  margin-top: 2px;
-  font-size: 15px;
-  margin-bottom: 15px;
-}
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    float: center;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: pink;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: pink;
+    color: white;
+  }
+  .fa-instagram {
+    background: pink;
+    color: white;
+  }
+  
+  /*footer*/
+  h6 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2px;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }

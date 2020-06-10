@@ -46,6 +46,10 @@ a:hover {
     margin: auto;
 }
 
+.carousel-caption {
+    font-family: 'Playfair Display', serif;
+}
+
 /*Social media buttons*/
 .flex-container {
     display: flex;
