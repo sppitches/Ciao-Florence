@@ -55,6 +55,13 @@ a:hover {
     border: 1px solid #ccc;  
 }
 
+  /* Carousel */
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
 /* social media buttons in footer */
 .flex-container {
     display: flex;
